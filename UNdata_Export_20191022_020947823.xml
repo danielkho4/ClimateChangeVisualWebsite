@@ -1,0 +1,2458 @@
+<ROOT>
+    <data>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2011</field>
+            <field name="Value">83256</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2010</field>
+            <field name="Value">88872</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2009</field>
+            <field name="Value">96576</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2008</field>
+            <field name="Value">85243</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2007</field>
+            <field name="Value">99493</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2013</field>
+            <field name="Value">15411149</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2012</field>
+            <field name="Value">14059531</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2011</field>
+            <field name="Value">16128863</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2010</field>
+            <field name="Value">13787027</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2009</field>
+            <field name="Value">16418399</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2008</field>
+            <field name="Value">14996266</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2007</field>
+            <field name="Value">14996266</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2006</field>
+            <field name="Value">14996266</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2005</field>
+            <field name="Value">14996266</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2004</field>
+            <field name="Value">14996266</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2003</field>
+            <field name="Value">14996266</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2002</field>
+            <field name="Value">14996266</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2001</field>
+            <field name="Value">14996266</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2015</field>
+            <field name="Value">6256900</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2013</field>
+            <field name="Value">6267400</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2012</field>
+            <field name="Value">6515000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2011</field>
+            <field name="Value">5513300</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2010</field>
+            <field name="Value">6565000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2009</field>
+            <field name="Value">5595900</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2008</field>
+            <field name="Value">6200000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2007</field>
+            <field name="Value">5776300</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2006</field>
+            <field name="Value">5784000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2005</field>
+            <field name="Value">6101000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2004</field>
+            <field name="Value">5687600</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2003</field>
+            <field name="Value">6041600</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2002</field>
+            <field name="Value">6261000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2001</field>
+            <field name="Value">5812200</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2000</field>
+            <field name="Value">6009200</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2015</field>
+            <field name="Value">147820</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2014</field>
+            <field name="Value">151833.046875</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2013</field>
+            <field name="Value">126400.0390625</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2012</field>
+            <field name="Value">170035.640625</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2011</field>
+            <field name="Value">154951.609375</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2010</field>
+            <field name="Value">205962.234375</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2009</field>
+            <field name="Value">151182.703125</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2008</field>
+            <field name="Value">183358.984375</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2007</field>
+            <field name="Value">170875.078125</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2006</field>
+            <field name="Value">146862.78125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2005</field>
+            <field name="Value">161001.59375</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2004</field>
+            <field name="Value">168171.640625</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2003</field>
+            <field name="Value">163506.984375</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2002</field>
+            <field name="Value">162937.453125</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2001</field>
+            <field name="Value">156893.296875</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2015</field>
+            <field name="Value">129751</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2014</field>
+            <field name="Value">139333</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2013</field>
+            <field name="Value">141194</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2012</field>
+            <field name="Value">153841</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2011</field>
+            <field name="Value">134831</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2010</field>
+            <field name="Value">137896</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2009</field>
+            <field name="Value">114559</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2008</field>
+            <field name="Value">150892</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2007</field>
+            <field name="Value">173896</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2006</field>
+            <field name="Value">143146</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2005</field>
+            <field name="Value">160396</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2004</field>
+            <field name="Value">102002</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2009</field>
+            <field name="Value">31588</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2008</field>
+            <field name="Value">33742</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2007</field>
+            <field name="Value">37319</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2006</field>
+            <field name="Value">34500</field>
+            <field name="Value Footnotes">2</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2005</field>
+            <field name="Value">27000</field>
+            <field name="Value Footnotes">2</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2004</field>
+            <field name="Value">34500</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2003</field>
+            <field name="Value">26500</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2002</field>
+            <field name="Value">36500</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2001</field>
+            <field name="Value">32000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2000</field>
+            <field name="Value">32000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1999</field>
+            <field name="Value">47109</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1998</field>
+            <field name="Value">44766</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1997</field>
+            <field name="Value">32377</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1996</field>
+            <field name="Value">26287</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1995</field>
+            <field name="Value">33939</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1994</field>
+            <field name="Value">45807</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1993</field>
+            <field name="Value">39457</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1992</field>
+            <field name="Value">36542</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1991</field>
+            <field name="Value">33939</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1990</field>
+            <field name="Value">42580</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2015</field>
+            <field name="Value">429730.09375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2014</field>
+            <field name="Value">567709.1875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2013</field>
+            <field name="Value">578551.625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2012</field>
+            <field name="Value">516008.3125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2011</field>
+            <field name="Value">428158.1875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2010</field>
+            <field name="Value">502397.1875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2009</field>
+            <field name="Value">474837.40625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2008</field>
+            <field name="Value">562079.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2007</field>
+            <field name="Value">509243.8125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2006</field>
+            <field name="Value">509886.1875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2005</field>
+            <field name="Value">401743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2004</field>
+            <field name="Value">473653.59375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2003</field>
+            <field name="Value">427897.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2002</field>
+            <field name="Value">535356.625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2001</field>
+            <field name="Value">542698.3125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2000</field>
+            <field name="Value">572225.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1999</field>
+            <field name="Value">583224.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1998</field>
+            <field name="Value">484093.3125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1997</field>
+            <field name="Value">463500.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1996</field>
+            <field name="Value">496655.8125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1995</field>
+            <field name="Value">526938.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1994</field>
+            <field name="Value">602141.625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1993</field>
+            <field name="Value">473114.90625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1992</field>
+            <field name="Value">467894.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1991</field>
+            <field name="Value">412166.59375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1990</field>
+            <field name="Value">458802.90625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2015</field>
+            <field name="Value">249000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2014</field>
+            <field name="Value">257000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2013</field>
+            <field name="Value">276000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2012</field>
+            <field name="Value">272000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2011</field>
+            <field name="Value">257000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2010</field>
+            <field name="Value">300000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2009</field>
+            <field name="Value">280000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2008</field>
+            <field name="Value">269000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2007</field>
+            <field name="Value">333000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2006</field>
+            <field name="Value">248000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2005</field>
+            <field name="Value">261000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2004</field>
+            <field name="Value">287000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2003</field>
+            <field name="Value">215000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2002</field>
+            <field name="Value">359000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2001</field>
+            <field name="Value">327000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2000</field>
+            <field name="Value">294000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1999</field>
+            <field name="Value">294000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1998</field>
+            <field name="Value">323000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1997</field>
+            <field name="Value">252000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1996</field>
+            <field name="Value">239000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1995</field>
+            <field name="Value">309000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1994</field>
+            <field name="Value">316000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1993</field>
+            <field name="Value">314000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1992</field>
+            <field name="Value">282000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1991</field>
+            <field name="Value">228000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1990</field>
+            <field name="Value">273000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2015</field>
+            <field name="Value">105541</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2014</field>
+            <field name="Value">97855</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2013</field>
+            <field name="Value">83886</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2012</field>
+            <field name="Value">92120</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2011</field>
+            <field name="Value">89439</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2010</field>
+            <field name="Value">74010</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2009</field>
+            <field name="Value">105505.6015625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2008</field>
+            <field name="Value">98949.703125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2007</field>
+            <field name="Value">82798.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2006</field>
+            <field name="Value">91144.296875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2005</field>
+            <field name="Value">80278.6015625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2004</field>
+            <field name="Value">82791.4609375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2003</field>
+            <field name="Value">72374.96875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2002</field>
+            <field name="Value">102101.28125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2001</field>
+            <field name="Value">70248.1484375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2000</field>
+            <field name="Value">94225.7421875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1999</field>
+            <field name="Value">93474.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1998</field>
+            <field name="Value">98107.359375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1997</field>
+            <field name="Value">86567.7890625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1996</field>
+            <field name="Value">82966.9375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1995</field>
+            <field name="Value">85872.890625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1994</field>
+            <field name="Value">97777.4609375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1993</field>
+            <field name="Value">88750.7578125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1992</field>
+            <field name="Value">86111.546875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1991</field>
+            <field name="Value">81254.2578125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1990</field>
+            <field name="Value">90589.796875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2010</field>
+            <field name="Value">306883.09375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2009</field>
+            <field name="Value">272025.8125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2008</field>
+            <field name="Value">262289.8125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2007</field>
+            <field name="Value">194680</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2006</field>
+            <field name="Value">201418.09375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2005</field>
+            <field name="Value">250316</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2004</field>
+            <field name="Value">274198.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2003</field>
+            <field name="Value">218186.203125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2002</field>
+            <field name="Value">283729.40625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2001</field>
+            <field name="Value">190838.703125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2000</field>
+            <field name="Value">244648.59375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">1990</field>
+            <field name="Value">296000</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2015</field>
+            <field name="Value">14365</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2014</field>
+            <field name="Value">16278</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2013</field>
+            <field name="Value">16188</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2012</field>
+            <field name="Value">18488</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2011</field>
+            <field name="Value">20205</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2010</field>
+            <field name="Value">25247</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2009</field>
+            <field name="Value">17830</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2008</field>
+            <field name="Value">21563</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2007</field>
+            <field name="Value">23509</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2006</field>
+            <field name="Value">18299</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2005</field>
+            <field name="Value">21080</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2004</field>
+            <field name="Value">19794</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2003</field>
+            <field name="Value">20387</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2002</field>
+            <field name="Value">23860</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2001</field>
+            <field name="Value">20222</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2000</field>
+            <field name="Value">16903</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1999</field>
+            <field name="Value">19574</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1990</field>
+            <field name="Value">21212</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2015</field>
+            <field name="Value">205611</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2014</field>
+            <field name="Value">223420</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2013</field>
+            <field name="Value">250354</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2012</field>
+            <field name="Value">222979</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2011</field>
+            <field name="Value">256962</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2010</field>
+            <field name="Value">250207</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2009</field>
+            <field name="Value">229455</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2008</field>
+            <field name="Value">252562</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2007</field>
+            <field name="Value">285972</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2006</field>
+            <field name="Value">212235</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2005</field>
+            <field name="Value">206200</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2004</field>
+            <field name="Value">233429</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">1990</field>
+            <field name="Value">276700</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2015</field>
+            <field name="Value">35308.25</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2014</field>
+            <field name="Value">31678.16015625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2013</field>
+            <field name="Value">30496.900390625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2012</field>
+            <field name="Value">34987</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2011</field>
+            <field name="Value">31397.19921875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2010</field>
+            <field name="Value">32450.599609375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2009</field>
+            <field name="Value">29895.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2008</field>
+            <field name="Value">32924.1015625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2007</field>
+            <field name="Value">36558.69921875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2006</field>
+            <field name="Value">30417.599609375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2005</field>
+            <field name="Value">31153.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2004</field>
+            <field name="Value">34044.69921875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2003</field>
+            <field name="Value">25382.30078125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2002</field>
+            <field name="Value">33280</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2001</field>
+            <field name="Value">35710</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2000</field>
+            <field name="Value">33510</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1999</field>
+            <field name="Value">32240</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1998</field>
+            <field name="Value">39410</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1997</field>
+            <field name="Value">26520</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1996</field>
+            <field name="Value">23830</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1995</field>
+            <field name="Value">29810</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1993</field>
+            <field name="Value">31586</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1992</field>
+            <field name="Value">32538</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1991</field>
+            <field name="Value">24344</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1990</field>
+            <field name="Value">24940</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2015</field>
+            <field name="Value">444104</field>
+            <field name="Value Footnotes">2</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2014</field>
+            <field name="Value">357169</field>
+            <field name="Value Footnotes">2</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2013</field>
+            <field name="Value">397998</field>
+            <field name="Value Footnotes">2</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2012</field>
+            <field name="Value">379740</field>
+            <field name="Value Footnotes">2</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2011</field>
+            <field name="Value">465153</field>
+            <field name="Value Footnotes">2</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2010</field>
+            <field name="Value">296366</field>
+            <field name="Value Footnotes">2</field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2015</field>
+            <field name="Value">155713.296875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2014</field>
+            <field name="Value">199957.203125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2013</field>
+            <field name="Value">210119.203125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2012</field>
+            <field name="Value">195767.296875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2011</field>
+            <field name="Value">215247.09375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2010</field>
+            <field name="Value">248797.40625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2009</field>
+            <field name="Value">211369.90625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2008</field>
+            <field name="Value">200207.296875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2007</field>
+            <field name="Value">224877.59375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2006</field>
+            <field name="Value">193140.796875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2005</field>
+            <field name="Value">179445.59375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2004</field>
+            <field name="Value">194141.40625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2003</field>
+            <field name="Value">152305.203125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2002</field>
+            <field name="Value">210525</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2001</field>
+            <field name="Value">232444</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2000</field>
+            <field name="Value">197268</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1999</field>
+            <field name="Value">199832</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1998</field>
+            <field name="Value">220093.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1997</field>
+            <field name="Value">198987.90625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1996</field>
+            <field name="Value">192546.703125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1995</field>
+            <field name="Value">205053.703125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1994</field>
+            <field name="Value">201489.203125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1993</field>
+            <field name="Value">189576.203125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1992</field>
+            <field name="Value">170659.203125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1991</field>
+            <field name="Value">188991.796875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1990</field>
+            <field name="Value">203124.90625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2013</field>
+            <field name="Value">10960192</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2012</field>
+            <field name="Value">10213529</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2011</field>
+            <field name="Value">9497691</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2010</field>
+            <field name="Value">9853898</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2009</field>
+            <field name="Value">10052551</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2008</field>
+            <field name="Value">10062826</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2007</field>
+            <field name="Value">10028576</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2006</field>
+            <field name="Value">10139890</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2005</field>
+            <field name="Value">9632981</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2004</field>
+            <field name="Value">10443008</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2003</field>
+            <field name="Value">9502829</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2002</field>
+            <field name="Value">10103927</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2001</field>
+            <field name="Value">10055976</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2000</field>
+            <field name="Value">10112490</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1999</field>
+            <field name="Value">9761421</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1998</field>
+            <field name="Value">9997750</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1997</field>
+            <field name="Value">9900136</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1996</field>
+            <field name="Value">9376102</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1995</field>
+            <field name="Value">9965212</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2015</field>
+            <field name="Value">379573</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2014</field>
+            <field name="Value">337479</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2013</field>
+            <field name="Value">311389</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2012</field>
+            <field name="Value">397478</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2011</field>
+            <field name="Value">381114</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2010</field>
+            <field name="Value">335750</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2009</field>
+            <field name="Value">340066</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2008</field>
+            <field name="Value">357745</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2007</field>
+            <field name="Value">340484</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2006</field>
+            <field name="Value">360630</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2005</field>
+            <field name="Value">334552</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2004</field>
+            <field name="Value">339172</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2003</field>
+            <field name="Value">308014</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2002</field>
+            <field name="Value">307074</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2001</field>
+            <field name="Value">369682</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2000</field>
+            <field name="Value">424479</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1999</field>
+            <field name="Value">322170</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1998</field>
+            <field name="Value">372570</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1997</field>
+            <field name="Value">284380</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1996</field>
+            <field name="Value">253780</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1995</field>
+            <field name="Value">323845</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1994</field>
+            <field name="Value">282580</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1993</field>
+            <field name="Value">312275</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1992</field>
+            <field name="Value">312275</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1991</field>
+            <field name="Value">278530</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1990</field>
+            <field name="Value">349106</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2015</field>
+            <field name="Value">60198</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2014</field>
+            <field name="Value">64698</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2013</field>
+            <field name="Value">65295</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2012</field>
+            <field name="Value">61785</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2011</field>
+            <field name="Value">49767</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2010</field>
+            <field name="Value">59183</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2009</field>
+            <field name="Value">55425</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2008</field>
+            <field name="Value">58563</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2007</field>
+            <field name="Value">63723</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2006</field>
+            <field name="Value">56696</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2005</field>
+            <field name="Value">53152</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2004</field>
+            <field name="Value">56977</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2003</field>
+            <field name="Value">55224</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2002</field>
+            <field name="Value">59471</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2001</field>
+            <field name="Value">78097</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2000</field>
+            <field name="Value">62203</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1999</field>
+            <field name="Value">78600.8984375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1998</field>
+            <field name="Value">56717.30078125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1997</field>
+            <field name="Value">61847.6015625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1996</field>
+            <field name="Value">50432.30078125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1995</field>
+            <field name="Value">70091</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1994</field>
+            <field name="Value">72806.8984375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1993</field>
+            <field name="Value">69391.3984375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1992</field>
+            <field name="Value">57787</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1991</field>
+            <field name="Value">59231</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1990</field>
+            <field name="Value">54704</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2010</field>
+            <field name="Value">231974</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2009</field>
+            <field name="Value">284961</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2008</field>
+            <field name="Value">316187</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2007</field>
+            <field name="Value">292292</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2006</field>
+            <field name="Value">298282</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2005</field>
+            <field name="Value">273842.09375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2004</field>
+            <field name="Value">307430.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2003</field>
+            <field name="Value">228855.90625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2002</field>
+            <field name="Value">324684.59375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2001</field>
+            <field name="Value">266176.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">2000</field>
+            <field name="Value">338989.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1999</field>
+            <field name="Value">314559.1875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1998</field>
+            <field name="Value">321154.8125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1997</field>
+            <field name="Value">260018.703125</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1996</field>
+            <field name="Value">232621.59375</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1995</field>
+            <field name="Value">260019</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1994</field>
+            <field name="Value">300860.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1993</field>
+            <field name="Value">284625.40625</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1992</field>
+            <field name="Value">300860.6875</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1991</field>
+            <field name="Value">253169.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
+            <field name="Year">1990</field>
+            <field name="Value">297636</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">million cubic metres</field>
+        </record>
+    </data>
+    <footnotes>
+        <footnote fnSeqID="1">Average annual precipitation. Costa Rica has 6 different climatic subregions, with different areas. This indicator was estimated by taking a representative hydrometeorological station and averaging between them, weighted by the surface of each climatic subregion. Thus it is an average of the annual precipitation averages of each subregion. North Caribbean Region 73-091 Hacienda El Carmen, Siquirres; Región Caribe Sur 81-003 Airport, Limón; North Pacific Region 74-020 Llano Grande, Liberia; Central Pacific Region 90-009 Damas, Garabito; South Pacific Region 98-022 Piñera, Buenos Aires; Central Region 84-193 Pavas Airport, San Jose; Northern Region 69-579 Santa Clara, San Carlos.</footnote>
+        <footnote fnSeqID="2">Estimate.</footnote>
+    </footnotes>
+</ROOT>
