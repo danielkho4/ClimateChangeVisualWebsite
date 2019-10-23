@@ -39,7 +39,7 @@ function chart(selection){
       .attr("height", height)
 
     let g = svg.select("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
     
     x.range([0, innerWidth])
     .domain(d3.extent(data, d=>d.Year));
@@ -56,7 +56,8 @@ function chart(selection){
     g.select('path')
       .datum(data)
       .join('path')
-      .attr("fill", "#ccc")
+      .attr("stroke", "blue")
+      //.attr("color-rendering", "black")
       .attr("d", area);
 
     // Activity III - Set the brush extent, brush event listener, and render the brush
@@ -68,6 +69,7 @@ function chart(selection){
     // Append x-axis
     g.select('.x-axis')
       .attr("transform", "translate(0," + innerHeight + ")")
+      .attr("color", "black")
       .call(xAxis);
 
   });

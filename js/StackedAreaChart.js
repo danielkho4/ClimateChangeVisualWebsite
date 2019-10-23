@@ -125,8 +125,10 @@ export default function StackedAreaChart(){ // does not need to have a name
 			// Call axis functions with the new domain 
 			g.select(".x-axis")
 				.attr("transform", "translate(0," + (height-margin.top-margin.bottom) + ")")
+				.attr("color", "black")
 				.call(xAxis);
-			g.select(".y-axis").call(yAxis);    
+			g.select(".y-axis").attr("color", "black").call(yAxis);    
+
 			
 			
 		});

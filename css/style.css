@@ -1,11 +1,17 @@
 .main{
     font-family : Futura, "Garamond";
+    color : black;
+    font-weight : bold;
+}
+
+.main2{
+  font-weight : bold;
 }
 
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: orchid;
+    background-color: purple;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -43,4 +49,11 @@
   .button:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  body{
+    background-image: url("Europe.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: px;
   }
