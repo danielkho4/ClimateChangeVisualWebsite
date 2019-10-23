@@ -70,7 +70,7 @@ export default function StackedAreaChart(){ // does not need to have a name
     	.attr("x", -120)
 		.attr("y", 15)
 		.attr("transform", "rotate(-90)")
-		.text("Billion Cubic Metres");
+		.text("Rainfall (Billion m^3)");
 
 		svg.append("text")             
 		.attr("class", "x-label")
