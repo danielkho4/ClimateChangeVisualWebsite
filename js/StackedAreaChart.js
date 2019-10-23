@@ -63,7 +63,23 @@ export default function StackedAreaChart(){ // does not need to have a name
 			let g = svg.select("g")
 			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 			let dataCategories = data.length>0?Object.keys(data[0]).filter(d=>d!=="Year"):[];
-            
+			
+			svg.append("text")             
+		.attr("class", "y-label")
+    	.attr("text-anchor", "end")
+    	.attr("x", -120)
+		.attr("y", 15)
+		.attr("transform", "rotate(-90)")
+		.text("Billion Cubic Metres");
+
+		svg.append("text")             
+		.attr("class", "x-label")
+    	.attr("text-anchor", "end")
+    	.attr("x", width/2+50)
+		.attr("y", height-20)
+		.text("Year");
+
+
 			// Initialize stack layout
 			stack = d3.stack()
 				.keys(dataCategories);
@@ -111,6 +127,7 @@ export default function StackedAreaChart(){ // does not need to have a name
 				.attr("transform", "translate(0," + (height-margin.top-margin.bottom) + ")")
 				.call(xAxis);
 			g.select(".y-axis").call(yAxis);    
+			
 			
 		});
 	}
