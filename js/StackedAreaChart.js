@@ -50,8 +50,8 @@ export default function StackedAreaChart(){ // does not need to have a name
 			// Activity IV - Add a tooltip placeholder
 			gEnter.append("text") // use gEnter to create this only once!
      			.attr("class", "focus")
-     			.attr("x", 20)
-     			.attr("y", 0)
+     			.attr("x", 0)
+     			.attr("y", -15)
      			.attr("dy", ".35em");	
 			// ------------------------------------------------
 			
