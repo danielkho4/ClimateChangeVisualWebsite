@@ -31,7 +31,7 @@ Promise.all([ // load multiple files
 	d3.csv('data/per_category.csv', d=>{
 		Object.keys(d).forEach(key=>{
 			if (key != "Year") {
-				d[key] = parseFloat(d[key]) * 1.481105 / 100;
+				d[key] = parseFloat(d[key]) /1000;
 			} else if(key == "Year") {
 				d[key] = parseDate(d[key].toString());
 			}
