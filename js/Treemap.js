@@ -41,7 +41,7 @@ console.log(root.leaves())
       .attr('y', function (d) { return d.y0; })
       .attr('width', function (d) { return d.x1 - d.x0; })
       .attr('height', function (d) { return d.y1 - d.y0; })
-      .style("stroke", "black")
+      //.style("stroke", "black")
       .style("fill", "#69b3a2")
       .on('mouseover', function(d){
           let xPosition = margin.left + (width / 2);
