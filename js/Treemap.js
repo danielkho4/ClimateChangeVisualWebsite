@@ -69,7 +69,9 @@ console.log(root.leaves())
     .append("text")
       .attr("x", function(d){ return d.x0+2})    // +10 to adjust position (more right)
       .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
-      //.text(function(d){ return d.data.name})
+      .text(function(d){
+          if (d.data.value > 800000){
+              return d.data.name;}})
       .attr("font-size", "15px")
       .attr("fill", "white")
 
