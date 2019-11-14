@@ -14,7 +14,8 @@ var svg = d3.select("#tree_map")
 
 // Read data
 d3.csv('data/CO2_real.csv', function(data) {
-
+    data.sort((a, b) => parseFloat(b.value)-parseFloat(a.value));
+    console.log(data[2])
   // stratify the data: reformatting for d3.js
   var root = d3.stratify()
     .id(function(d) { return d.name; })   // Name of the entity (column name is name in csv)
