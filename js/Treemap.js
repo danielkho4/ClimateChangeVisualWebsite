@@ -2,6 +2,13 @@ var svg1 = d3.select("#temp_map")
 .append("svg")
 .attr("width",600)
 .attr("height", 600)
+svg1.append("text") 
+.attr("x", 0)
+.attr("y", 30)
+.attr("dy", ".35em")
+.attr("font-size", "15px")
+.attr("font-family", "Baskerville")
+.text("In this space we will put a map of temperature data for major countries")
 
 // set the dimensions and margins of the graph
 var margin = {top: 20, right: 10, bottom: 10, left: 10},
@@ -99,3 +106,15 @@ console.log(root.leaves())
           
 
 })
+
+var svg2 = d3.select("#next_map")
+.append("svg")
+.attr("width",600)
+.attr("height", 600)
+svg2.append("text") 
+.attr("x", 0)
+.attr("y", 30)
+.attr("dy", ".35em")
+.attr("font-size", "15px")
+.attr("font-family", "Baskerville")
+.text("In this space we will put a bar chart of our iceberg data over time")
