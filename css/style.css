@@ -50,3 +50,20 @@
     opacity: 1;
     right: 0;
   }
+
+  html, body {
+    
+    
+    height:100%;
+    
+  }
+body{
+  display: grid;
+  justify-items:center;
+}
+
+  
+#bm {
+    width: 500px;
+   
+  }
