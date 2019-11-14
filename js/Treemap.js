@@ -1,3 +1,8 @@
+var svg1 = d3.select("#temp_map")
+.append("svg")
+.attr("width",600)
+.attr("height", 600)
+
 // set the dimensions and margins of the graph
 var margin = {top: 20, right: 10, bottom: 10, left: 10},
   width = 600 - margin.left - margin.right,
