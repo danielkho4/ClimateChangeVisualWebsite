@@ -1,8 +1,8 @@
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
-  width = 445 - margin.left - margin.right,
-  height = 445 - margin.top - margin.bottom;
-
+  width = 600 - margin.left - margin.right,
+  height = 600 - margin.top - margin.bottom;
+let tooltip;
 // append the svg object to the body of the page
 var svg = d3.select("#tree_map")
 .append("svg")
@@ -49,9 +49,16 @@ console.log(root.leaves())
     .data(root.leaves())
     .enter()
     .append("text")
-      .attr("x", function(d){ return d.x0+10})    // +10 to adjust position (more right)
+      .attr("x", function(d){ return d.x0+2})    // +10 to adjust position (more right)
       .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
       .text(function(d){ return d.data.name})
       .attr("font-size", "15px")
       .attr("fill", "white")
+
+  svg.append("text") // use gEnter to create this only once!
+      .attr("class", "focus")
+      .attr("x", 20)
+      .attr("y", 0)
+      .attr("dy", ".35em");	
+
 })
