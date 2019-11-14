@@ -1,5 +1,5 @@
 // set the dimensions and margins of the graph
-var margin = {top: 10, right: 10, bottom: 10, left: 10},
+var margin = {top: 20, right: 10, bottom: 10, left: 10},
   width = 600 - margin.left - margin.right,
   height = 600 - margin.top - margin.bottom;
 let tooltip;
@@ -41,7 +41,25 @@ console.log(root.leaves())
       .attr('width', function (d) { return d.x1 - d.x0; })
       .attr('height', function (d) { return d.y1 - d.y0; })
       .style("stroke", "black")
-      .style("fill", "#69b3a2");
+      .style("fill", "#69b3a2")
+      .on('mouseover', function(d){
+          let xPosition = margin.left + (width / 2);
+          let yPosition = margin.top;
+
+          d3.select("#tooltip")
+          .style("left", xPosition + "px")
+          .style("top", yPosition + "px")
+          .select("#value")
+          .text(d.name);
+          
+          d3.select(".tooltip").classed("hidden", false);
+        })
+        .on("mouseout", function(d) {
+
+            //Hide the tooltip
+            d3.select("#tooltip").classed("hidden", true);
+        });
+
 
   // and to add the text labels
   svg
@@ -51,14 +69,25 @@ console.log(root.leaves())
     .append("text")
       .attr("x", function(d){ return d.x0+2})    // +10 to adjust position (more right)
       .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
-      .text(function(d){ return d.data.name})
+      //.text(function(d){ return d.data.name})
       .attr("font-size", "15px")
       .attr("fill", "white")
 
-  svg.append("text") // use gEnter to create this only once!
-      .attr("class", "focus")
+  svg.append("text") 
+      .attr("x", width/4)
+      .attr("y", -10)
+      .attr("dy", ".35em")
+      .attr("font-size", "20px")
+      .attr("font-family", "Baskerville")
+      .text("Carbon Emissions by Country 2016");
+
+    svg.append("text") 
+      .attr("class", "tooltip")
       .attr("x", 20)
       .attr("y", 0)
-      .attr("dy", ".35em");	
+      .attr("dy", ".35em")
+      .attr("font-size", "15px")
+      .attr("font-family", "Baskerville")
+          
 
 })
