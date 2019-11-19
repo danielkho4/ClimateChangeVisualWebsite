@@ -13,7 +13,7 @@ let spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": "500",
   "height": "500",
-  "title": {"text":"Temperature Anomalies by Year",
+  "title": {"text":"World Temperature Anomalies by Year",
   "font": "'Kulim Park', sans-serif"},
   "data": {
     //"url": "data/TempData.3json",
