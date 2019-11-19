@@ -16,7 +16,7 @@ let spec = {
   "title": {"text":"Temperature Anomalies by Year",
   "font": "'Kulim Park', sans-serif"},
   "data": {
-    //"url": "data/TempData.json",
+    //"url": "data/TempData.3json",
     "values": json,
     //"format": {"parse": {"Year": "string"}}
 
