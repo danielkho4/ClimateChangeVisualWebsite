@@ -10,22 +10,34 @@
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 	<link rel="stylesheet" href="css/milligram.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Kulim+Park&display=swap" rel="stylesheet">
 </head>
 <body>
-		<h2 align='center'>Global Warming: A Story</h2>
-		<div id="bm"></div>
+		<h2 align='center' id="Main_Head">Global Warming and the United States Role</h2>
+		<div id="bm" align='center'></div>
+		<section>
+			<a href="#" class="scroll-down" address="true"></a>
+			</section>
+			
 		
 	<div class ="container1">
 		
-
-		<div id="temp_map"></div>
-	</div><div class="container2">
+		<div class=row>
+		<div id="chart-area" class="column column-30">30%</div>
+		<div id="CO2area" class="column column-30">30%</div>
+		<div class = "column column-20">
+			<p>Here we can see a correlation between the temperature anomalies and the carbon emmisions from 1980-2016. 
+				They are both steadily increasing and while correlation does not equal causation, we have to think about the 
+				issue of CO2 levels and climate change.
+			</p>
+		</div>
+		</div>
+	</div>
+	<div class="container2">
 
 		<p></p>
 		<!-- Parent container for the Treemap -->
-		<p align='left'>Above our Tree Map we will have a map of temperature changes by country to compare
-			with carbon levels per country.
-		</p>
+		<br>
 		<div id="tree_map" align='center'></div>
 		<p align='left'>Next SVG will be for Carbon Countdown using Bar Chart, below</p>
 		<div id="next_map" align='right'>
@@ -40,9 +52,14 @@
 	<script src="js/loading.js"></script>
 	<!-- Load JS libraries: jQuery, bootstrap, D3 -->
 	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega@5.7.2"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.10"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-embed@5.1.3"></script>
 
 	<!-- Scatterplot implementation -->
 	<script src="js/Treemap.js"></script>
+	<script src="js/scroll_function.js"></script>
 
 </body>
 </html>

@@ -1,14 +1,71 @@
-var svg1 = d3.select("#temp_map")
-.append("svg")
-.attr("width",600)
-.attr("height", 600)
-svg1.append("text") 
-.attr("x", 0)
-.attr("y", 30)
-.attr("dy", ".35em")
-.attr("font-size", "15px")
-.attr("font-family", "Baskerville")
-.text("In this space we will put a map of temperature data for major countries")
+ 
+
+function createLineChart() {
+  $.getJSON("data/TempData.json", function(json) {
+    console.log(json); 
+    json = json.filter(a => a.Year>1980);
+    for (var i = 0; i < json.length; i++) {
+      json[i].Year = json[i].Year.toString();
+  }
+
+
+let spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "500",
+  "height": "500",
+  "title": {"text":"Temperature Anomalies by Year",
+  "font": "'Kulim Park', sans-serif"},
+  "data": {
+    //"url": "data/TempData.json",
+    "values": json,
+    //"format": {"parse": {"Year": "string"}}
+
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal",
+    "axis": {
+      "labelPadding": "4"
+    }},
+    "y": {"field": "Mean", "type": "quantitative",
+  "title":"Mean Temperature Anomalies (Degrees C)"}
+  }
+}
+vegaEmbed('#chart-area', spec);
+});
+$.getJSON("data/Carbon_emissions.json", function(json) {
+  console.log(json); 
+  for (var i = 0; i < json.length; i++) {
+    json[i].year = json[i].year.toString();
+}
+let spec2 = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "500",
+  "height": "500",
+  "title": {"text" : "World Carbon Emissions by Year", 
+  "font": "'Kulim Park', sans-serif"},
+  "data": {"values": json},
+  //"transform": [{"filter": "datum.symbol==='GOOG'"}],
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "year", "type": "temporal",
+    "axis": {
+      "labelPadding": "4",
+      "title":"Year"
+    }},
+    "y": {"field": "mean", "type": "quantitative",
+    "scale": {"domain": [250,450]},
+    "title":"Mean CO2 (micromol)"
+  }
+  }
+}
+vegaEmbed('#CO2area', spec2);
+});
+
+};
+createLineChart();
+
+
 
 // set the dimensions and margins of the graph
 var margin = {top: 20, right: 10, bottom: 10, left: 10},
@@ -93,7 +150,7 @@ console.log(root.leaves())
       .attr("y", -10)
       .attr("dy", ".35em")
       .attr("font-size", "20px")
-      .attr("font-family", "Baskerville")
+      .attr ("font-family", "Kulim Park, sans-serif")
       .text("Carbon Emissions by Country 2016");
 
     svg.append("text") 
@@ -111,10 +168,3 @@ var svg2 = d3.select("#next_map")
 .append("svg")
 .attr("width",600)
 .attr("height", 600)
-svg2.append("text") 
-.attr("x", 0)
-.attr("y", 30)
-.attr("dy", ".35em")
-.attr("font-size", "15px")
-.attr("font-family", "Baskerville")
-.text("In this space we will put a bar chart of our iceberg data over time")
