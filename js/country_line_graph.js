@@ -7,8 +7,7 @@ export default function createTreemap(){
       var tooltip = d3.select("#tree_map")
       .append("text")
       .style("position", "absolute")
-      .attr("x", "500px")
-      .attr("y", "500px")
+      //.style("right", "0px")
       //.style("z-index", "100000")
       .style("visibility", "hidden")
       
@@ -116,9 +115,9 @@ export default function createTreemap(){
 
 function line_graph_country(name){
 console.log(name);
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+var margin = {top: 50, right: 30, bottom: 50, left: 100},
+    width = 550 - margin.left - margin.right,
+    height = 460 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#tree_map")
@@ -134,31 +133,40 @@ d3.csv("data/CO2_data_years.csv",
   function(data) {
     data = data.filter(a => a.name ==name)
 
-    var x = d3.scaleTime()
-      .domain(d3.extent(data, function(d) { return d.Year; }))
-      .range([ 0, width ])
+     var x = d3.scaleTime()
+       .domain(d3.extent(data, function(d) { return d.Year; }))
+       .range([ 0, width ])
+    //   //.ticks(d3.timeYear.every(5))
       //.attr("width", x.bandwidth());
     svg.append("g")
-      .attr("transform", "translate(0," + height + ")")
+
+      .attr("transform", "translate(0," + height  + ")")
+      .attr("class", "axis")
      // .attr("width", x.bandwidth())
-      .call(d3.axisBottom(x));
+      .call(d3.axisBottom(x).tickFormat(d3.format('.0f')).ticks(5))
+      
 
     // Add Y axis
     var y = d3.scaleLinear()
       .domain([0, d3.max(data, function(d) { return +d.value; })])
-      .range([ height, 0 ]);
+      .range([ height, 0 ])
     svg.append("g")
+        .attr("class", "axis")
       .call(d3.axisLeft(y));
     svg.on("click", function(d){
         d3.selectAll('svg').remove();
         createTreemap()
       });
+    svg.append("text")
+      .text(name + " Co2 Emissions 1990-2016")
+      .attr("x", (width)/2-200)
+      .attr("y", -10);
     // Add the line
     svg.append("path")
       .datum(data)
       .attr("fill", "none")
       .attr("stroke", "steelblue")
-      .attr("stroke-width", 1.5)
+      .attr("stroke-width", 3)
       .attr("d", d3.line()
         .x(function(d) { return x(d.Year) })
         .y(function(d) { return y(d.value) })

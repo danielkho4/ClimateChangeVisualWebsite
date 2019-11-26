@@ -171,3 +171,7 @@ html {
   font-weight: bold;
   color: orange;
 }
+
+.axis{
+  font: 12px sans-serif;
+}
