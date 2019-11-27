@@ -1,7 +1,7 @@
 export default function create_US_map(){
 	var svg3 = d3.select("#canvas")
 	.append("svg")
-	.attr("height", 700)
+	.attr("height", 500)
 	.attr("width", 700);
 	
 	var lengend = d3.selectAll("#lengend")

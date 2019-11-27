@@ -1,5 +1,6 @@
 import createTreemap from "./country_line_graph.js";
 import create_US_map from "./US_map.js";
+import createGlacierChart from "./glacier_chart.js";
 
 export default function createLineChart() {
   $.getJSON("data/TempData.json", function(json) {
@@ -22,7 +23,7 @@ let spec = {
     //"format": {"parse": {"Year": "string"}}
 
   },
-  "mark": "line",
+  "mark": {"type":"line", "tooltip":true},
   "encoding": {
     "x": {"field": "Year", "type": "temporal",
     "axis": {
@@ -70,5 +71,5 @@ createTreemap();
 
 create_US_map();
 
-
+createGlacierChart();
 
