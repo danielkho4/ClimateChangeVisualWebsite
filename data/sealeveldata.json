@@ -1,12 +1,5 @@
 [
   {
-    "Figure 1. Global Average Absolute Sea Level Change, 1880-2014": "Year",
-    "": "CSIRO - Adjusted sea level (inches)",
-    "__1": "CSIRO - Lower error bound (inches)",
-    "__2": "CSIRO - Upper error bound (inches)",
-    "__3": "NOAA - Adjusted sea level (inches)"
-  },
-  {
     "Figure 1. Global Average Absolute Sea Level Change, 1880-2014": 1880,
     "": 0,
     "__1": -0.952755905,
