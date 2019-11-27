@@ -23,14 +23,21 @@ let spec = {
     //"format": {"parse": {"Year": "string"}}
 
   },
-  "mark": {"type":"line", "tooltip":true},
+  "mark": {"type":"point", "tooltip":{"field":"source", "type":"ordinal"}},
   "encoding": {
     "x": {"field": "Year", "type": "temporal",
     "axis": {
-      "labelPadding": "4"
+      "labelPadding": "4",
+      "bandPosition": 0.5,
+      "tickCount":9
     }},
     "y": {"field": "Mean", "type": "quantitative",
-  "title":"Mean Temperature Anomalies (Degrees C)"}
+  "title":"Mean Temperature Anomalies (Degrees C)"},
+  "color": {
+    "condition": {"test": "datum.Source === 'GCAG'", "value": "black"},
+    "value": "blue"
+  }
+
   }
 }
 vegaEmbed('#chart-area', spec);
@@ -48,12 +55,14 @@ let spec2 = {
   "font": "'Kulim Park', sans-serif"},
   "data": {"values": json},
   //"transform": [{"filter": "datum.symbol==='GOOG'"}],
-  "mark": "line",
+  "mark": {"type":"point","tooltip":true},
   "encoding": {
     "x": {"field": "year", "type": "temporal",
     "axis": {
       "labelPadding": "4",
-      "title":"Year"
+      "title":"Year",
+      "bandPosition": 0.5,
+      "tickCount":9
     }},
     "y": {"field": "mean", "type": "quantitative",
     "scale": {"domain": [250,450]},
