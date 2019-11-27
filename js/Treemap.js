@@ -1,4 +1,5 @@
 import createTreemap from "./country_line_graph.js";
+import create_US_map from "./US_map.js";
 
 export default function createLineChart() {
   $.getJSON("data/TempData.json", function(json) {
@@ -67,7 +68,7 @@ createLineChart();
 
 createTreemap();
 
-
+create_US_map();
 
 
 
