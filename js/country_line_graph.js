@@ -1,15 +1,16 @@
 export default function createTreemap(){
 
     // set the dimensions and margins of the graph
-    var margin = {top: 20, right: 10, bottom: 10, left: 10},
+    var margin = {top: 20, right: 10, bottom: 20, left: 10},
       width = 600 - margin.left - margin.right,
       height = 600 - margin.top - margin.bottom;
-      var tooltip = d3.select("#tree_map")
-      .append("text")
-      .style("position", "absolute")
-      //.style("right", "0px")
-      //.style("z-index", "100000")
-      .style("visibility", "hidden")
+      // var tooltip = d3.select("#tree_map")
+      // .append("text")
+      // .style("position", "absolute")
+      // .attr("y", 600)
+      // //.style("right", "0px")
+      // //.style("z-index", "100000")
+      // .style("visibility", "hidden")
       
 
     
@@ -19,18 +20,16 @@ export default function createTreemap(){
     // append the svg object to the body of the page
     var svg = d3.select("#tree_map")
     .append("svg")
-    
+      .attr("class", "svg_tree")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
     .append("g")
       .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
-    
-    // Read data
     d3.csv('data/CO2_data_years.csv', function(data) {
         data = data.filter(a => a.Year == "2016")
         data.sort((a, b) => parseFloat(b.value)-parseFloat(a.value));
-        console.log(data[2])
+        console.log(data)
       // stratify the data: reformatting for d3.js
       var root = d3.stratify()
         .id(function(d) { return d.name; })   // Name of the entity (column name is name in csv)
@@ -52,6 +51,7 @@ export default function createTreemap(){
         .data(root.leaves())
         .enter()
         .append("rect")
+          .attr("class", "rect_tree")
           .attr('x', function (d) { return d.x0; })
           .attr('y', function (d) { return d.y0; })
           .attr('width', function (d) { return d.x1 - d.x0; })
@@ -61,7 +61,7 @@ export default function createTreemap(){
           //.style("fill", "#add8e6")
           .on('mouseover', function(d){
             tooltip.style("visibility", "visible")
-            .text(d.data.name + " had emmisions of " + d.data.value + "moles of CO2 in 2016")
+            .text(d.data.name + " had emmisions of " + d.data.value + " moles of Co2 in 2016")
             d3.select(this)
               .transition(50)
               .style("opacity", 1)
@@ -77,7 +77,9 @@ export default function createTreemap(){
                 .style("stroke", "white")           
             })
             .on("click", function(d){
-              d3.selectAll('svg').remove();
+              d3.select(this)
+              d3.selectAll('.rect_tree').remove();
+              d3.selectAll(".svg_tree").remove();
               d3.selectAll('text').remove();
               line_graph_country(d.data.name)
             })
@@ -98,7 +100,10 @@ export default function createTreemap(){
           .attr ("font-family", "Kulim Park, sans-serif")
           .attr("font-size", "15px")
           .attr("fill", "white")
-    
+      var tooltip = svg.append("text")
+          .style("visibility", "hidden")
+          .attr("x", 0)
+          .attr("y", height+10)
       svg.append("text") 
           .attr("x", width/4)
           .attr("y", -10)
@@ -106,8 +111,6 @@ export default function createTreemap(){
           .attr("font-size", "20px")
           .attr ("font-family", "Kulim Park, sans-serif")
           .text("Carbon Emissions by Country 2016");
-    
-              
     
     })
     
@@ -122,6 +125,7 @@ var margin = {top: 50, right: 30, bottom: 50, left: 100},
 // append the svg object to the body of the page
 var svg = d3.select("#tree_map")
   .append("svg")
+  .attr("class","bar_svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -154,13 +158,16 @@ d3.csv("data/CO2_data_years.csv",
         .attr("class", "axis")
       .call(d3.axisLeft(y));
     svg.on("click", function(d){
-        d3.selectAll('svg').remove();
+        d3.selectAll('.bar_svg').remove();
         createTreemap()
       });
     svg.append("text")
       .text(name + " Co2 Emissions 1990-2016")
       .attr("x", (width)/2-200)
-      .attr("y", -10);
+      .attr("y", -10)
+      .attr ("font-family", "Kulim Park, sans-serif")
+      .attr("font-size", "15px");
+
     // Add the line
     svg.append("path")
       .datum(data)
@@ -171,6 +178,12 @@ d3.csv("data/CO2_data_years.csv",
         .x(function(d) { return x(d.Year) })
         .y(function(d) { return y(d.value) })
         );
+        svg.append('svg:image')
+        .attr("xlink:href", function() {return "images/Back_arrow.svg"})
+        .attr('width', "50")
+        .attr('height', "50")
+        .attr("x", -60)
+        .attr("y", -50)
     
 })
 };
