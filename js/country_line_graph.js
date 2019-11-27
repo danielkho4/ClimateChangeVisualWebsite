@@ -4,13 +4,6 @@ export default function createTreemap(){
     var margin = {top: 20, right: 10, bottom: 20, left: 10},
       width = 600 - margin.left - margin.right,
       height = 600 - margin.top - margin.bottom;
-      // var tooltip = d3.select("#tree_map")
-      // .append("text")
-      // .style("position", "absolute")
-      // .attr("y", 600)
-      // //.style("right", "0px")
-      // //.style("z-index", "100000")
-      // .style("visibility", "hidden")
       
 
     
@@ -80,7 +73,7 @@ export default function createTreemap(){
               d3.select(this)
               d3.selectAll('.rect_tree').remove();
               d3.selectAll(".svg_tree").remove();
-              d3.selectAll('text').remove();
+              d3.selectAll('.tooltip').remove();
               line_graph_country(d.data.name)
             })
             ;
@@ -101,6 +94,7 @@ export default function createTreemap(){
           .attr("font-size", "15px")
           .attr("fill", "white")
       var tooltip = svg.append("text")
+          .attr("class", "tooltip")
           .style("visibility", "hidden")
           .attr("x", 0)
           .attr("y", height+10)
