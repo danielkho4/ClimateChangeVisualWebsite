@@ -20,7 +20,21 @@
 			</section>
 			<div class = "container3">
 			</div></div>
-			<button id="pei" class="pei">stop</button>
+			
+				   
+				  <nav class="top-nav">
+					<div class="menu-wrapper">
+					  <!-- content here -->
+					</div>
+					<div class="fixed-menu">
+						<Button><a href="#button" class="myClass"> US Temperature Anomalies </a></Button>
+						<Button><a href="#container1" class="myClass2"> World Temp vs. World Carbon </a></Button>
+						<Button><a href="#container2" class="myClass3"> Carbon Emissions by Country </a></Button>
+						<Button><a href="#container3" class="myClass4"> World Glacier Data </a></Button>
+					  <!-- content here -->
+					</div>
+				  </nav>
+			<button id="pei" class="pei"><a name="button"></a>stop</button>
 		<div id="title">
 			<div>Temperature Anomalies by State USA</div>
 			<div id="year">1895</div>
@@ -29,9 +43,9 @@
 			<div id="canvas" class = "canvas"></div>
 			<script src="d3.v3.min.js">//http://d3js.org/</script>
 			</div>
-			
+
 			<div class ="container1">
-		
+					<a name="container1"></a>
 				<div class=row>
 				<div id="chart-area" class="column column-30">30%</div>
 				<div id="CO2area" class="column column-30">30%</div>
@@ -45,7 +59,7 @@
 			</div>			
 			
 	<div class="container2">
-
+		<a name="container2"></a>
 		<p></p>
 		<!-- Parent container for the Treemap -->
 		<br>
@@ -60,6 +74,7 @@
 	</div>
 	
 	<div class ="container0">
+		<a name="container3"></a>
         <div class = "column column-5">
             <p> A steep decline in glacier mass is seen globally
             </p>
@@ -81,6 +96,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/vega@5.7.2"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.10"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vega-embed@5.1.3"></script>
+	<script src="js/menu.js"></script>
 	<!-- Scatterplot implementation -->
 	<script src="js/Treemap.js" type = "module"></script>
 	<script src="js/scroll_function.js"></script>
