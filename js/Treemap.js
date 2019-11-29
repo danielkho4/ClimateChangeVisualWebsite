@@ -23,6 +23,7 @@ let spec = {
     //"format": {"parse": {"Year": "string"}}
 
   },
+
   "mark": {"type":"point", "tooltip":{"field":"source", "type":"ordinal"}},
   "encoding": {
     "x": {"field": "Year", "type": "temporal",
