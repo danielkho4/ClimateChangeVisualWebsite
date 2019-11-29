@@ -135,8 +135,17 @@ d3.csv("all.csv", function(error, data) {
             }
         })
         .on("click", function(d, i) {
-            console.log(d);
+            // tooltip.style("visibility", "visible")
+            // .text(function(d){
+            //     console.log(d)
+            //     return (d.properties.name + " had a value of " )
+            // })
         });
+        var tooltip = svg3.append("text")
+        .attr("class", "tooltip")
+        .style("visibility", "hidden")
+        .attr("x", 400)
+        .attr("y", 610)
 
         svg3.selectAll("text")
         .data(states.features)

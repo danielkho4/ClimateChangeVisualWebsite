@@ -23,7 +23,7 @@ let spec = {
 
   },
 
-  "mark": {"type":"point", "tooltip":{"field":"source", "type":"ordinal"}},
+  "mark": {"type":"point", "tooltip":{"field":"Source", "type":"ordinal"}},
   "encoding": {
     "x": {"field": "Year", "type": "temporal",
     "axis": {
