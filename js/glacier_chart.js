@@ -21,7 +21,8 @@ export default function createGlacierChart() {
     "mark": {
       "type": "area",
       "line": {
-        "color": "lightblue"
+        "color": "lightblue",
+      "tooltip":true
       },
       "color": {
         "x1": 1,
