@@ -10,7 +10,6 @@ export default function createLineChart() {
       json[i].Year = json[i].Year.toString();
   }
 
-
 let spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": "500",
