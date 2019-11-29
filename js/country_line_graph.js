@@ -178,6 +178,19 @@ d3.csv("data/CO2_data_years.csv",
         .attr('height', "50")
         .attr("x", -60)
         .attr("y", -50)
-    
+        svg.append("text")             
+        .attr("transform",
+              "translate(" + (width/2) + " ," + 
+                             (height + margin.top-10) + ")")
+        .style("text-anchor", "middle")
+        .text("Year");
+
+        svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("Value (Kiltonne Co2)");    
 })
 };
