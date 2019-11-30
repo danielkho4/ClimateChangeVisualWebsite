@@ -6,6 +6,17 @@ a{
   font-weight:bold;
 }
 
+.WebContainer{
+  width: 100%;
+  height: auto;
+}
+
+.articles{
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
 button{
   color:black;
   background-color: white;

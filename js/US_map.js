@@ -135,11 +135,10 @@ d3.csv("all.csv", function(error, data) {
             }
         })
         .on("click", function(d, i) {
-            // tooltip.style("visibility", "visible")
-            // .text(function(d){
-            //     console.log(d)
-            //     return (d.properties.name + " had a value of " )
-            // })
+            console.log(d)
+            console.log(d.state)
+             tooltip.style("visibility", "visible")
+             .text(d.state + " had a value of " )
         });
         var tooltip = svg3.append("text")
         .attr("class", "tooltip")
