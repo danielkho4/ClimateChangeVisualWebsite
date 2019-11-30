@@ -12,8 +12,8 @@ export default function createLineChart() {
 
 let spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": "500",
-  "height": "500",
+  "width": "400",
+  "height": "400",
   "title": {"text":"World Temperature Anomalies by Year",
   "font": "'Kulim Park', sans-serif"},
   "data": {
@@ -49,8 +49,8 @@ $.getJSON("data/Carbon_emissions.json", function(json) {
 }
 let spec2 = {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": "500",
-  "height": "500",
+  "width": "400",
+  "height": "400",
   "title": {"text" : "World Carbon Emissions by Year", 
   "font": "'Kulim Park', sans-serif"},
   "data": {"values": json},
