@@ -1,7 +1,7 @@
 export default function create_US_map(){
 	var svg3 = d3.select("#canvas")
 .append("svg")
-.attr("height", 700)
+.attr("height", 650)
 .attr("width", 1380);
 
 var lengend = d3.selectAll("#lengend")
@@ -48,7 +48,7 @@ lengend.selectAll("text")
 .text(function(d) { return d; })
 
 var projection = d3.geo.mercator()
-.center([-110, 44])
+.center([-110, 40])
 .scale(1000);
 var path = d3.geo.path().projection(projection);
 
@@ -145,7 +145,7 @@ d3.csv("all.csv", function(error, data) {
         .attr("class", "tooltip")
         .style("visibility", "hidden")
         .attr("x", 400)
-        .attr("y", 610)
+        .attr("y", 500)
 
         svg3.selectAll("text")
         .data(states.features)
