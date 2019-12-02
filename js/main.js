@@ -18,7 +18,7 @@ let spec = {
   "font": "'Kulim Park', sans-serif"},
   "data": {
     //"url": "data/TempData.3json",
-    "values": json,
+    "values": json
     //"format": {"parse": {"Year": "string"}}
 
   },
