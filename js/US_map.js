@@ -138,7 +138,7 @@ d3.csv("all.csv", function(error, data) {
             console.log(d)
             console.log(d.state)
              tooltip.style("visibility", "visible")
-             .text(d.state + " had a value of " + d[1894+initial] +" in " + (1894+parseInt(initial)))
+             .text(d.state + " had a value of " + d[1894+initial] +"°C in " + (1894+parseInt(initial)))
 
         });
         var tooltip = svg3.append("text")

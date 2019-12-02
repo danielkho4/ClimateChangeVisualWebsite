@@ -54,7 +54,7 @@ export default function createTreemap(){
           //.style("fill", "#add8e6")
           .on('mouseover', function(d){
             tooltip.style("visibility", "visible")
-            .text(d.data.name + " had emmisions of " + d.data.value + " moles of Co2 in 2016")
+            .text(d.data.name + " had emmisions of " + d.data.value + " KTs of Co2 in 2016")
             d3.select(this)
               .transition(50)
               .style("opacity", 1)
