@@ -55,10 +55,10 @@ var path = d3.geo.path().projection(projection);
 
 var initial = 0;
 var repeat = function() {
+    console.log("initial is: ", initial)
     if (initial > 123)  initial = 0;
-
     document.getElementById('year').innerHTML = initial + 1895;
-
+    
     svg3.selectAll(".circle")
     .each(function(d) {
         d3.select(this)
@@ -195,7 +195,26 @@ d3.csv("all.csv", function(error, data) {
             }
             console.log(this.value);
         }
+
+        document.getElementById('slider').onchange = function() {
+            //change = window.setInterval(repeat,250);
+            //window.clearInterval(change);
+            //change = window.setInterval(repeat,250);
+            initial = document.getElementById('slider').value-1895
+            repeat()
+            window.clearInterval(change);
+            document.getElementById('year').innerHTML = initial + 1895-1;
+            document.getElementById('btn').innerHTML = "Continue";
+            document.getElementById('btn').value = "false";
+            console.log(initial)
+            
+    }
+            
+        
+        
+        
         
     });
 });
+
 }
