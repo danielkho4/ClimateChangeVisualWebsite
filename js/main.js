@@ -2,6 +2,26 @@ import createTreemap from "./country_line_graph.js";
 import create_US_map from "./US_map.js";
 import createGlacierChart from "./glacier_chart.js";
 
+
+
+
+// sr.reveal('#canvas', {
+//   delay: 300,
+//   duration: 500,
+//   reset: true
+// })
+// sr.reveal('.container2', {
+//   delay: 300,
+//   duration: 500,
+//   reset: true
+// })
+
+// sr.reveal('.container0', {
+//   delay: 300,
+//   duration: 500,
+//   reset: true
+// })
+
 export default function createLineChart() {
   $.getJSON("data/TempData.json", function(json) {
     console.log(json); 
