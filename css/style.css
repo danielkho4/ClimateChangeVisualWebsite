@@ -91,7 +91,7 @@ section {
 
 p{
   color: black;
-  font-family: arial;
+  font-family: 'Crimson Text', serif;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
@@ -214,8 +214,15 @@ p{
     height:100%;
     
   }
+#btndiv{
+  text-align: center;
+  display: inline;
+}
 body{
 
+}
+#bmcont{
+  text-align: center;
 }
 
   
@@ -259,7 +266,23 @@ html {
   transform: translateX(150px);
   background: url(IMAGE_PATH) no-repeat center / fixed;
 }
- 
+form{
+  margin-bottom: 0; 
+  display: inline;
+}
+#blockcontainer {
+  text-align: center;
+}
+#blockcontainer > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+#btn{
+  display: inline;
+}
+
+
+
 .top-banner-overlay {
   display: flex;
   flex-direction: column;
@@ -317,8 +340,25 @@ html {
 .top-nav .menu-wrapper.is-opened {
   transform: translateX(150px);
 }
+#title{
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  color:black;
+}
  
 .top-nav .menu-wrapper.is-opened .menu {
   opacity: 1;
   transition-delay: .6s;
+}
+
+#blockcontainer {
+  text-align: center;
+}
+#blockcontainer > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+#blockcontainer > form {
+  display: inline-block;
+  vertical-align: middle;
 }

@@ -9,12 +9,16 @@
 	<!-- Load CSS files -->
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 	<link rel="stylesheet" href="css/milligram.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kulim+Park&display=swap" rel="stylesheet">
 </head>
 <body>
 		<h2 align='center' id="Main_Head">Global Warming and the United States Role</h2>
+		<div id="bmcont">
 		<div id="bm" align='center'></div>
+	</div>
 		<section>
 			<a href="#" class="scroll-down" address="true"></a>
 			</section>
@@ -27,7 +31,7 @@
 					  <!-- content here -->
 					</div>
 					<div class="fixed-menu">
-						<a href="#btn" class="myClass" position=relative> US Temperature Anomalies </a>
+						<a href="#title" class="myClass" position=relative> US Temperature Anomalies </a>
 						<br>
 						<a href="#container1_1" class="myClass2"> World Temp vs. World Carbon </a>
 						<br>
@@ -38,16 +42,22 @@
 					</div>
 				  </nav>
 		<div class=container4>
-		<button id="btn" value="true" >stop</button>
+
 		<div id="title">
 			<div align='center'>Temperature Anomalies by State USA</div>
+		
 			<div id="year" align='center'>1895</div>
-			<div id="lengend" align="center"></div></div>
-			<form align='center'>
-					<label for="year">Please select a year: </label>
-
-					<input type="range" min=1895 max=2018 step=1 id="slider" value=1895 oninput="selected_year.value = slider.value">
-					<output name="selected_year" id="selected_year">1895</output>
+			<div id="blockcontainer">
+			<div id='btndiv'>
+					<button id="btn" value="true" >stop</button></div>
+					<form>
+							<label for="year">Please select a year: </label>
+		
+							<input type="range" min=1895 max=2018 step=1 id="slider" value=1895 oninput="selected_year.value = slider.value">
+							<output name="selected_year" id="selected_year">1895</output>
+						</form></div>
+			<div id="lengend" align='center'></div>
+		
 				</form>
 			<div class="row">
 				

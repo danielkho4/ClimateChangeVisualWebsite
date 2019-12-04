@@ -21,7 +21,7 @@ lengend.selectAll("circle")
 .attr("cx", function(d,i) {
     return 48 + 50*i;
 })
-.attr("cy", 46)
+.attr("cy", 40)
 .attr("r", function(d,i) {
     if (i == 0 || i == 4)  return 24;
     else if (i == 1 || i ==3)  return 16;
