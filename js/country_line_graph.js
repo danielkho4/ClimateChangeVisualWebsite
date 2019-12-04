@@ -103,7 +103,8 @@ export default function createTreemap(){
           .attr("y", -10)
           .attr("dy", ".35em")
           .attr("font-size", "20px")
-          .attr ("font-family", "Kulim Park, sans-serif")
+          .attr ("font-family", "Lato, sans-serif")
+          .attr("font-weight", "bold")
           .text("Carbon Emissions by Country 2016");
     
     })

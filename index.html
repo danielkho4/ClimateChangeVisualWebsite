@@ -9,15 +9,19 @@
     <meta name="description" content="A brief page description">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/milligram.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage','6thpage','7thpage'],
+              anchors: ['firstPage', 'secondPage', '4thpage','6thpage', '8thpage'],
               menu: '#menu',
             });
         });
@@ -28,38 +32,35 @@
 
 
 <ul id="menu">
-    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First</a></li>
-    <li data-menuanchor="secondPage"><a href="#secondPage">Second</a></li>
-    <li data-menuanchor="3rdPage"><a href="#3rdPage">Third</a></li>
-    <li data-menuanchor="4thPage"><a href="#4thpage">Fourth</a></li>
-    <li data-menuanchor="5thPage"><a href="#5thpage">Fifth</a></li>
-    <li data-menuanchor="6thPage"><a href="#6thpage">Sixth</a></li>
-    <li data-menuanchor="6thPage"><a href="#7thpage">Seven</a></li>
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Title</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">US Temperature Anomalies</a></li>
+    <li data-menuanchor="4thPage"><a href="#4thpage">World Temp vs. World Carbon</a></li>
+    <li data-menuanchor="6thPage"><a href="#6thpage">Carbon Emissions by Country</a></li>
+    <li data-menuanchor="8thPage"><a href="#8thpage">Average Glacier Mass</a></li>
 </ul>
 
 <div id="fullpage">
     <div class="section " id="section0">
-        <h1>Global Warming and the United States Role</h1>
-        <p>Scroll Down</p>
+        <h1 >Global Warming and the United States Role</h1>
+        <div id="quote">"You cannot get through a single day without having an impact on the world around you. What you do 
+            makes a difference, and you have to decide what kind of difference you want to make." -- Jane Goodall</div>
         <section>
                 <a href="#secondPage" class="scroll-down" address="true"></a>
                 </section>
-        <p class="introimg">&darr;&#9636;&darr;</p>
-    </div>
-    <div class="section " id="section1">
-        <div class="intro" id="bm" align="center">
         
-        </div>
-        </div>
+    </div>
+
     <div class="section" id="section2">
         <!--<div class="intro" id="bm" align="center">
         
         </div>-->
         <br>
-        <div id="title">
-            <div align="center"></div>
+        <br>
+        <br>
+        <br>
+        <div id="title" align='center'>
                 Temperature Anomalies by State USA
-            </div>
+        </div>
             <div id="year">1895</div>
         <div id="blockcontainer">
         <button id="btn" value="true">stop</button>
@@ -69,75 +70,53 @@
             <input type="range" min=1895 max=2018 step=1 id="slider" value=1895 oninput="selected_year.value = slider.value">
             <output name="selected_year" id="selected_year">1895</output>
         </form></div>
+        <div id="lengend"></div>
 
-                <div id="lengend"></div>
+                
                 
             <div class="row">
                 
-                <div id="canvas" class = "column column-30" align="center">
-        
+                <div id="canvas" class = "column column-30">
             </div>
+            <p class = "column column-30">From 2014-2016 there is a spike in global temperature. Rising global temperature means specific
+                    habitats and animals can no longer exist. Changing ecosystems cannot support Humans and the
+                    lovely planet we live on.</p>
+            
             <script src="d3.v3.min.js">//http://d3js.org/</script>
             </div>
     </div>
-    <div class="section " id="section3">
-            
-            <p>As we can see, the area of Glacier data is steadily decreasing at higher and higher rates.
-                    The cumulative mass lost is getting larger as the years go by, just as temperatures levels and CO2 emissions rise. 
-                    We see a clear correlation between these three metrics.</p>
-            <p class="introimg">&darr;&#9636;&darr;</p>
-        </div>
+
     <div class="section " id="section4">
+            <p align='center' id="carb_text">Carbon emissions steadily increases over time globally. CO2 is a natural gas which is not dangerous to the environment. Human produce CO2 is the problem and it gets absorb into the oceans. 
+                This creates acidification that kills ecosystems and warms global water temperature.</p>
             <div id="chart-area" class="column column-30">30%</div>
             <div id="CO2area" class="column column-30">30%</div>
+            
     </div>
-    <div class="section " id="section5">
-           
-            Here we can see that the United States was the largest
-			contributor to the world's CO2 emmisions in 2016. By clicking on each node in the treemap, we can break down 
-			the categories to further years and see how levels have changed over time for each specific country.
-    </div>
+
     <div class="section " id="section6">
-           
-		<div id="tree_map" class="column column-50">
+         <div class="row">  
+                <p class="column column-30">Looking for the main suppliers, the United States contributed the most carbon in 2016. One of
+                        the most developed countries in the world should be environmentally oriented. Our direct actions
+                        effect the lives of all humans and our laws are not climate change conscious. Our data does not
+                        consist of China but we expect them to also be a leading supplier of CO2</p>
+		<div id="tree_map" class="column column-30"></div>
+         
+            
 
 		</div>
     </div>
     
-
-    <div class="section " id="section7">
-            As we can see, the area of Glacier data is steadily decreasing at higher and higher rates.
-			The cumulative mass lost is getting larger as the years go by, just as temperatures levels and CO2 emissions rise. 
-			We see a clear correlation between these three metrics.
-            
-    </div>
     <div class="section " id="section8">
-            <div id="glacier-area" class="column column-50"></div>
+        <div class="row">
+            <div id="glacier-area" class="column column-30"></div>
+            <p class = "column column-30">Glacier mass has declined sharply since the start of the 1945. Glaciers provide water during the
+                    summer months when they melt. The cold runoff water is home to a diverse set of plants and
+                    animals, without the resource would not exist.</p>
+            </div>
             
     </div>
         
-    
-   
-   
-   
-   
-   
-    <div class="section active" id="section3">
-        <div class="slide" id="slide1">
-            <div class="intro">
-                <h1>First Slide</h1>
-                <p>Keep scrolling down</p>
-            </div>
-        </div>
-        <div class="slide active" id="slide2">
-            <h1>Slide 2</h1>
-			<p>You can also scroll left or right on this screen</p>
-        </div>
-        <div class="slide" id="slide3">
-            <h1>Slide 3</h1>
-        </div>
-
-    </div>
    
     <div class="section" id="section3">
         <div class="intro">

@@ -1,12 +1,12 @@
 export default function create_US_map(){
 	var svg3 = d3.select("#canvas")
 .append("svg")
-.attr("height", 650)
+.attr("height", 500)
 .attr("width", 800);
 
 var lengend = d3.selectAll("#lengend")
 .append("svg")
-.attr("height", 100)
+.attr("height", 90)
 .attr("width", 300);
 
 var colors = ["#4373B6", "#ACD5EA", "#FFFFFF", "#FFAF5A", "#E9462A"];
@@ -21,7 +21,7 @@ lengend.selectAll("circle")
 .attr("cx", function(d,i) {
     return 48 + 50*i;
 })
-.attr("cy", 46)
+.attr("cy", 40)
 .attr("r", function(d,i) {
     if (i == 0 || i == 4)  return 24;
     else if (i == 1 || i ==3)  return 16;
@@ -48,7 +48,7 @@ lengend.selectAll("text")
 .text(function(d) { return d; })
 
 var projection = d3.geo.mercator()
-.center([-90, 40])
+.center([-90, 36])
 .scale(750);
 var path = d3.geo.path().projection(projection);
 
@@ -144,8 +144,8 @@ d3.csv("all.csv", function(error, data) {
         var tooltip = svg3.append("text")
         .attr("class", "tooltip")
         .style("visibility", "hidden")
-        .attr("x", 400)
-        .attr("y", 500)
+        .attr("x", 100)
+        .attr("y", 380)
 
         svg3.selectAll("text")
         .data(states.features)

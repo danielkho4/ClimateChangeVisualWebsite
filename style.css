@@ -23,7 +23,10 @@ input,select{vertical-align:middle}
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
 
-
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold !important;
+}
  form{
     margin-bottom: 0; 
     display: inline;
@@ -38,8 +41,25 @@ input,select{vertical-align:middle}
   #btn{
     display: inline;
   }
-  
-
+#quote{
+  font-family: 'Fira Sans', sans-serif;
+  font-size:20px;
+}
+#title{
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color:black;
+  font-size:30px;
+}
+#year{
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+  color:black;
+}
+#carb_text{
+  font-size :18px;
+}
 html.fp-enabled,
 .fp-enabled body {
     margin: 0;
@@ -653,6 +673,8 @@ body{
     transition-delay: .6s;
   }
 
+  
+
   form{
     margin-bottom: 0; 
     display: inline;
@@ -670,4 +692,10 @@ body{
   }
   #btn{
     display: inline;
+  }
+
+  p{
+    text-align: left;
+    font-family: 'Crimson Text', serif;
+    font-size:40px;
   }
