@@ -18,8 +18,8 @@
 		<section>
 			<a href="#" class="scroll-down" address="true"></a>
 			</section>
-			<div class = "container3">
-			</div></div>
+			
+			</div>
 			
 				   
 				  <nav class="top-nav">
@@ -27,9 +27,9 @@
 					  <!-- content here -->
 					</div>
 					<div class="fixed-menu">
-						<a href="#btn" class="myClass"> US Temperature Anomalies </a>
+						<a href="#btn" class="myClass" position=relative> US Temperature Anomalies </a>
 						<br>
-						<a href="#container1" class="myClass2"> World Temp vs. World Carbon </a>
+						<a href="#container1_1" class="myClass2"> World Temp vs. World Carbon </a>
 						<br>
 						<a href="#container2" class="myClass3"> Carbon Emissions by Country </a>
 						<br>
@@ -37,13 +37,13 @@
 					  <!-- content here -->
 					</div>
 				  </nav>
-		
-				  <button id="btn" value="true">stop</button>
+		<div class=container4>
+		<button id="btn" value="true" >stop</button>
 		<div id="title">
-			<div>Temperature Anomalies by State USA</div>
-			<div id="year">1895</div>
-			<div id="lengend"></div></div>
-			<form>
+			<div align='center'>Temperature Anomalies by State USA</div>
+			<div id="year" align='center'>1895</div>
+			<div id="lengend" align="center"></div></div>
+			<form align='center'>
 					<label for="year">Please select a year: </label>
 
 					<input type="range" min=1895 max=2018 step=1 id="slider" value=1895 oninput="selected_year.value = slider.value">
@@ -61,10 +61,11 @@
 			<script src="d3.v3.min.js">//http://d3js.org/</script>
 			</div>
 		</div>
-		<a name="container1"></a>
+	</div>
+	<a name="container1_1"></a>
 			<div class ="container1">
 				
-				<div class=row>
+				<div class=row id='bigrow'>
 				<div class = "column column-10"></div>
 				<div id="chart-area" class="column column-30">30%</div>
 				<div id="CO2area" class="column column-30">30%</div>
@@ -101,9 +102,10 @@
 	</div>
 	<a name="container3"></a>
 	<div class ="container0">
+			<div class=row id = smallrow>
         <div class = "column column-5">
         </div>
-        <div class=row>
+        
 		<div class = "column column-20"></div>
         <div id="glacier-area" class="column column-50"></div>
         <!--<div id="CO2area" class="column column-30">30%</div> -->
