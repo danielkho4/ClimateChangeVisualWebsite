@@ -21,7 +21,7 @@ lengend.selectAll("circle")
 .attr("cx", function(d,i) {
     return 48 + 50*i;
 })
-.attr("cy", 40)
+.attr("cy", 46)
 .attr("r", function(d,i) {
     if (i == 0 || i == 4)  return 24;
     else if (i == 1 || i ==3)  return 16;
@@ -55,7 +55,7 @@ var path = d3.geo.path().projection(projection);
 
 var initial = 0;
 var repeat = function() {
-   // console.log("initial is: ", initial)
+    console.log("initial is: ", initial)
     if (initial > 123)  initial = 0;
     document.getElementById('year').innerHTML = initial + 1895;
     
@@ -206,7 +206,7 @@ d3.csv("all.csv", function(error, data) {
             document.getElementById('year').innerHTML = initial + 1895-1;
             document.getElementById('btn').innerHTML = "Continue";
             document.getElementById('btn').value = "false";
-            //console.log(initial)
+            console.log(initial)
             
     }
             
