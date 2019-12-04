@@ -1,137 +1,158 @@
 <!doctype html>
-<html>
+<html lang="en" class="no-js">
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Global Warming: A Story</title>
-
-	<!-- Load CSS files -->
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-	<link rel="stylesheet" href="css/milligram.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Kulim+Park&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>HTML Template - Full Page Slider Navigation</title>
+    <meta name="description" content="A brief page description">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/milligram.min.css">
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage','6thpage','7thpage'],
+              menu: '#menu',
+            });
+        });
+    </script>
 </head>
+
 <body>
-		<h2 align='center' id="Main_Head">Global Warming and the United States Role</h2>
-		<div id="bm" align='center'></div>
-		<section>
-			<a href="#" class="scroll-down" address="true"></a>
-			</section>
-			<div class = "container3">
-			</div></div>
-			
-				   
-				  <nav class="top-nav">
-					<div class="menu-wrapper">
-					  <!-- content here -->
-					</div>
-					<div class="fixed-menu">
-						<a href="#btn" class="myClass"> US Temperature Anomalies </a>
-						<br>
-						<a href="#container1" class="myClass2"> World Temp vs. World Carbon </a>
-						<br>
-						<a href="#container2" class="myClass3"> Carbon Emissions by Country </a>
-						<br>
-						<a href="#container3" class="myClass4"> World Glacier Data </a>
-					  <!-- content here -->
-					</div>
-				  </nav>
-				  <button id="btn" value="true">stop</button>
-		<div id="title">
-			<div>Temperature Anomalies by State USA</div>
-			<div id="year">1895</div>
-			<div id="lengend"></div></div>
-			<form>
-					<label for="year">Please select a year: </label>
 
-					<input type="range" min=1895 max=2018 step=1 id="slider" value=1895 oninput="selected_year.value = slider.value">
-					<output name="selected_year" id="selected_year">1895</output>
-				</form>
-			<div class="row">
-				
-				<div id="canvas" class = "column column-30">
 
-			</div>
-			<!--<p class="column column-20">We first investigate the changing of temperatures here in the U.S. 
-				Temperature anomalies measure the overall change in mean temperature over a period of time. 
-				Based on our legend, we can see that 
-			</p>-->
-			<script src="d3.v3.min.js">//http://d3js.org/</script>
-			</div>
-		</div>
-			<div class ="container1">
-					<a name="container1"></a>
-				<div class=row>
-				<div class = "column column-10"></div>
-				<div id="chart-area" class="column column-30">30%</div>
-				<div id="CO2area" class="column column-30">30%</div>
-				<div class = "column column-20">
-					<p>Here we can see a correlation between the temperature anomalies and the carbon emmisions from 1980-2016. 
-						They are both steadily increasing and while correlation does not equal causation, we have to think about the 
-						issue of CO2 levels and climate change. <span>The spike in warming from 2014 to 2016 coincided with extreme weather events worldwide, 
-							including heat waves, droughts, floods, extensive melting of polar ice and global coral bleaching.</span>
-					</p>
-				</div> 
-				</div>
-			</div>			
-			
-	<div class="container2">
-		<a name="container2"></a>
-		<p></p>
-		<!-- Parent container for the Treemap -->
-		<br>
-		<div class = row>
-		<div id ="space" class="column column-20"></div>
-		<div id="tree_map" class="column column-50">
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">Second</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">Third</a></li>
+    <li data-menuanchor="4thPage"><a href="#4thpage">Fourth</a></li>
+    <li data-menuanchor="5thPage"><a href="#5thpage">Fifth</a></li>
+    <li data-menuanchor="6thPage"><a href="#6thpage">Sixth</a></li>
+    <li data-menuanchor="6thPage"><a href="#7thpage">Seven</a></li>
+</ul>
 
-		</div><p id="notes" class="column column-25">Here we can see that the United States was the largest
+<div id="fullpage">
+    <div class="section " id="section0">
+        <h1>Global Warming and the United States Role</h1>
+        <p>Scroll Down</p>
+        <section>
+                <a href="#secondPage" class="scroll-down" address="true"></a>
+                </section>
+        <p class="introimg">&darr;&#9636;&darr;</p>
+    </div>
+    <div class="section " id="section1">
+        <div class="intro" id="bm" align="center">
+        
+        </div>
+        </div>
+    <div class="section" id="section2">
+        <!--<div class="intro" id="bm" align="center">
+        
+        </div>-->
+        <br>
+        <button id="btn" value="true">stop</button>
+        <div id="title">
+                <div align="center"></div>
+                    Temperature Anomalies by State USA
+                </div>
+                <div id="year">1895</div>
+                <div id="lengend"></div>
+                <form>
+                    <label for="year">Please select a year: </label>
+        
+                    <input type="range" min=1895 max=2018 step=1 id="slider" value=1895 oninput="selected_year.value = slider.value">
+                    <output name="selected_year" id="selected_year">1895</output>
+                </form>
+            <div class="row">
+                
+                <div id="canvas" class = "column column-30" align="center">
+        
+            </div>
+            <script src="d3.v3.min.js">//http://d3js.org/</script>
+            </div>
+    </div>
+    <div class="section " id="section3">
+            
+            <p>As we can see, the area of Glacier data is steadily decreasing at higher and higher rates.
+                    The cumulative mass lost is getting larger as the years go by, just as temperatures levels and CO2 emissions rise. 
+                    We see a clear correlation between these three metrics.</p>
+            <p class="introimg">&darr;&#9636;&darr;</p>
+        </div>
+    <div class="section " id="section4">
+            <div id="chart-area" class="column column-30">30%</div>
+            <div id="CO2area" class="column column-30">30%</div>
+    </div>
+    <div class="section " id="section5">
+           
+            Here we can see that the United States was the largest
 			contributor to the world's CO2 emmisions in 2016. By clicking on each node in the treemap, we can break down 
 			the categories to further years and see how levels have changed over time for each specific country.
-			<br>
-			<br>
-			Next we will investigate the cause these rising CO2 and temperature levels have on the world's glaciers.
-		</p></div>
-		
+    </div>
+    <div class="section " id="section6">
+           
+		<div id="tree_map" class="column column-50">
 
 		</div>
-		<br>
+    </div>
+    
 
-	</div>
-	
-	<div class ="container0">
-		<a name="container3"></a>
-        <div class = "column column-5">
-        </div>
-        <div class=row>
-		<div class = "column column-20"></div>
-        <div id="glacier-area" class="column column-50"></div>
-        <!--<div id="CO2area" class="column column-30">30%</div> -->
-        <p class="column column-25">As we can see, the area of Glacier data is steadily decreasing at higher and higher rates.
+    <div class="section " id="section7">
+            As we can see, the area of Glacier data is steadily decreasing at higher and higher rates.
 			The cumulative mass lost is getting larger as the years go by, just as temperatures levels and CO2 emissions rise. 
-			We see a clear correlation between these three metrics. 
-		</p>
+			We see a clear correlation between these three metrics.
+            
+    </div>
+    <div class="section " id="section8">
+            <div id="glacier-area" class="column column-50"></div>
+            
+    </div>
+        
+    
+   
+   
+   
+   
+   
+    <div class="section active" id="section3">
+        <div class="slide" id="slide1">
+            <div class="intro">
+                <h1>First Slide</h1>
+                <p>Keep scrolling down</p>
+            </div>
+        </div>
+        <div class="slide active" id="slide2">
+            <h1>Slide 2</h1>
+			<p>You can also scroll left or right on this screen</p>
+        </div>
+        <div class="slide" id="slide3">
+            <h1>Slide 3</h1>
+        </div>
+
+    </div>
+   
+    <div class="section" id="section3">
+        <div class="intro">
+            <h1>The End</h1>
+            <p>You reached the bottom of the page</p>
         </div>
     </div>
-	
-	
-
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>
-	<script src="js/loading.js"></script>
-	<!-- Load JS libraries: jQuery, bootstrap, D3 -->
-	<script src="https://d3js.org/d3.v4.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vega@5.7.2"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.10"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vega-embed@5.1.3"></script>
-	<script src="js/menu.js"></script>
-	<!-- Scatterplot implementation -->
-	<script src="js/main.js" type = "module"></script>
-	<script src="js/scroll_function.js"></script>
+<script src="js/loading.js"></script>
+    <!-- Load JS libraries: jQuery, bootstrap, D3 -->
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.7.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.10"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@5.1.3"></script>
+<script src="js/main.js" type="module"></script>
 
 </body>
+
 </html>
-
-/
-
-

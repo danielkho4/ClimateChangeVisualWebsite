@@ -2,7 +2,7 @@ export default function create_US_map(){
 	var svg3 = d3.select("#canvas")
 .append("svg")
 .attr("height", 650)
-.attr("width", 1380);
+.attr("width", 800);
 
 var lengend = d3.selectAll("#lengend")
 .append("svg")
@@ -48,8 +48,8 @@ lengend.selectAll("text")
 .text(function(d) { return d; })
 
 var projection = d3.geo.mercator()
-.center([-110, 40])
-.scale(1000);
+.center([-90, 40])
+.scale(750);
 var path = d3.geo.path().projection(projection);
 
 
@@ -66,9 +66,9 @@ var repeat = function() {
         .duration(40)
         .attr("r", function() {
             if (d[initial+1895]) {
-                if (Math.abs(parseFloat(d[initial+1895])) == 0)  return 15;
-                else if (Math.abs(parseFloat(d[initial+1895])) < 1.5)  return 24;
-                else  return 38;
+                if (Math.abs(parseFloat(d[initial+1895])) == 0)  return 10;
+                else if (Math.abs(parseFloat(d[initial+1895])) < 1.5)  return 16;
+                else  return 30;
             }
             else {
                 return 8;
@@ -218,3 +218,4 @@ d3.csv("all.csv", function(error, data) {
 });
 
 }
+
