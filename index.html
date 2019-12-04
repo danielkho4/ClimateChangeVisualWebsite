@@ -56,19 +56,22 @@
         
         </div>-->
         <br>
-        <button id="btn" value="true">stop</button>
         <div id="title">
-                <div align="center"></div>
-                    Temperature Anomalies by State USA
-                </div>
-                <div id="year">1895</div>
+            <div align="center"></div>
+                Temperature Anomalies by State USA
+            </div>
+            <div id="year">1895</div>
+        <div id="blockcontainer">
+        <button id="btn" value="true">stop</button>
+        <form>
+            <label for="year">Please select a year: </label>
+
+            <input type="range" min=1895 max=2018 step=1 id="slider" value=1895 oninput="selected_year.value = slider.value">
+            <output name="selected_year" id="selected_year">1895</output>
+        </form></div>
+
                 <div id="lengend"></div>
-                <form>
-                    <label for="year">Please select a year: </label>
-        
-                    <input type="range" min=1895 max=2018 step=1 id="slider" value=1895 oninput="selected_year.value = slider.value">
-                    <output name="selected_year" id="selected_year">1895</output>
-                </form>
+                
             <div class="row">
                 
                 <div id="canvas" class = "column column-30" align="center">
