@@ -134,7 +134,26 @@ d3.csv("all.csv", function(error, data) {
                 }
             }
         })
-        .on("click", function(d, i) {
+        .on('mouseenter', function(d){
+            return tooltip.style("visibility", "visible").text(d.Country + ":" + d.Deathrate);
+        })
+        .on('mousemove', function(d){
+            return tooltip.style("top", (d3.event.pageY-10)+"px").style("left", (d3.event.pageX+10)+"px").text(d.state + " had a value of " + d[1894+initial] +"°C in " + (1894+parseInt(initial)));
+                   
+        })
+        .on('mouseleave', function(d){
+            return tooltip.style("visibility", "hidden");
+        })
+        var tooltip = d3.select("body").append("div")  
+            .style("position", "absolute")
+            .style("font-family",  "sans-serif")
+            .style("font-size", "15px")
+            .style("color", "black")
+            .style("z-index", "10")
+            .style("visibility", "hidden")
+            .style("background", "white")
+            .style("opacity", "0.8");
+        /* .on("click", function(d, i) {
             console.log(d)
             console.log(d.state)
              tooltip.style("visibility", "visible")
@@ -146,7 +165,7 @@ d3.csv("all.csv", function(error, data) {
         .style("visibility", "hidden")
         .attr("x", 100)
         .attr("y", 380)
-
+ */
         svg3.selectAll("text")
         .data(states.features)
         .enter()
