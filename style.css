@@ -772,4 +772,13 @@ span{
 #quote{
   font-size:20px;
 }
-
+#btn{
+border-radius: 10px;
+    width:125px;
+    box-shadow: 0 2px #999;
+  }
+  #btn:active {
+    background-color: #ccc;
+    box-shadow: 0 5px #666;
+    transform: translateY(0px);
+  }
