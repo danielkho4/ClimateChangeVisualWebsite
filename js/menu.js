@@ -2,6 +2,7 @@ const menuOpen = document.querySelector(".top-nav .menu-open");
 const menuClose = document.querySelector(".top-nav .menu-close");
 const menuWrapper = document.querySelector(".top-nav .menu-wrapper");
 const topBannerOverlay = document.querySelector(".top-banner-overlay");
+
  
 function toggleMenu() {
   menuOpen.addEventListener("click", () => {
