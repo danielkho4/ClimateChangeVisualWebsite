@@ -23,6 +23,18 @@ input,select{vertical-align:middle}
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
 
+ @media (min-width: 40rem) { 
+  .row { 
+    flex-direction: row; 
+    margin-left: -1.0rem; 
+    width: calc(100% + 2.0rem); 
+  } 
+  .row .column { 
+    margin-bottom: inherit; 
+    padding: 0 1.0rem; 
+  } 
+} 
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold !important;
