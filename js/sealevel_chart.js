@@ -11,7 +11,7 @@ export default function createSeaLevelChart(){
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "width": "700",
     "height": "400",
-    "title": {"text":"Sea level rise",
+    "title": {"text":"Sea Level Over Time",
     "font": "'Kulim Park', sans-serif"},
     "data": {
       //"url": "data/TempData.3json",
@@ -19,8 +19,8 @@ export default function createSeaLevelChart(){
       //"format": {"parse": {"Year": "string"}}
     },
     "encoding": {
-        "x": {"timeUnit": "yearmonth", "field": "year", "type": "temporal"},
-        "y": {"aggregate": "sum", "field": "33", "type": "quantitative"}
+        "x": {"timeUnit": "yearmonth", "field": "year", "type": "temporal", "title":"Year"},
+        "y": {"aggregate": "sum", "field": "33", "type": "quantitative", "title":"Adjusted Sea Level (In)"}
     },
     "layer": [{
       "selection": {
@@ -29,12 +29,15 @@ export default function createSeaLevelChart(){
           "encodings": ["x"]
         }
       },
-      "mark": "area"
-    }, {
+      "mark": "area"},{ 
       "transform": [
         {"filter": {"selection": "brush"}}
       ],
+<<<<<<< HEAD
       "mark": {"type": "area", "color": "deepblue"}
+=======
+      "mark": {"type": "area", "color": "lightblue", "tooltip":true}
+>>>>>>> 62af6f1126f9bbb4793128fc2f6fec5e4e8142b4
     }]
   }
   vegaEmbed('#sealevel-area', spec4);
