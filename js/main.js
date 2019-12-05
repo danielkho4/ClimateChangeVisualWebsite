@@ -22,6 +22,7 @@ import createGlacierChart from "./glacier_chart.js";
 //   duration: 500,
 //   reset: true
 // })
+jQuery(document.links)   .filter(function() {     return this.hostname != window.location.hostname;   })     .attr('target', '_blank'); 
 
 export default function createLineChart() {
   $.getJSON("data/TempData.json", function(json) {
