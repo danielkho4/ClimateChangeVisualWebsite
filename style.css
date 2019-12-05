@@ -767,9 +767,6 @@ body{
 span{
   color:darkturquoise;
   font-style:italic;
-<<<<<<< HEAD
-}
-=======
 }
 
 #quote{
@@ -785,4 +782,8 @@ border-radius: 10px;
     box-shadow: 0 5px #666;
     transform: translateY(0px);
   }
->>>>>>> 63ceed69706cdf34beed54c9f960501f445b16a4
+
+
+#end{
+  text-align:center;
+}
