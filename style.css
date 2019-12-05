@@ -23,6 +23,18 @@ input,select{vertical-align:middle}
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
 
+ @media (min-width: 40rem) { 
+  .row { 
+    flex-direction: row; 
+    margin-left: -1.0rem; 
+    width: calc(100% + 2.0rem); 
+  } 
+  .row .column { 
+    margin-bottom: inherit; 
+    padding: 0 1.0rem; 
+  } 
+} 
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold !important;
@@ -40,6 +52,9 @@ h1{
   }
   #btn{
     display: inline;
+    background-color: whitesmoke;
+    border: none;
+    color:black;
   }
 #quote{
   font-family: 'Fira Sans', sans-serif;
@@ -698,7 +713,7 @@ body{
   p{
     text-align: left;
     font-family: 'Crimson Text', serif;
-    font-size:40px;
+    font-size:35px;
   }
 
   blockquote{
@@ -730,3 +745,26 @@ body{
     font-size: 1em;
     font-style: italic;
   }
+
+  @media (min-width: 40rem) { 
+    .row { 
+      flex-direction: row; 
+      margin-left: -1.0rem; 
+      width: calc(100% + 2.0rem); 
+    } 
+    .row .column { 
+      margin-bottom: inherit; 
+      padding: 0 1.0rem; 
+    } 
+  } 
+
+  @media (min-width: 495px) and (max-width:800px) {
+    .row .column[class*=" column-"] {
+        max-width: 100%;
+    }
+}
+
+span{
+  color:darkturquoise;
+  font-style:italic;
+}

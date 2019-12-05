@@ -45,7 +45,8 @@ export default function createGlacierChart() {
     "encoding": {
       "x": {"field": "year", "type": "temporal",
       "axis": {
-        "labelPadding": "4"
+        "labelPadding": "4",
+        "title":"Year"
       }},
       "y": {"field": "22", "type": "quantitative",
     "title":"Average Cunulative Mass of Glaciers Globally (Inches)"}
