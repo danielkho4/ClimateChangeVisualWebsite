@@ -1,6 +1,7 @@
 import createTreemap from "./country_line_graph.js";
 import create_US_map from "./US_map.js";
 import createGlacierChart from "./glacier_chart.js";
+import createSeaLevelChart from "./sealevel_chart.js";
 
 
 
@@ -103,4 +104,6 @@ createTreemap();
 create_US_map();
 
 createGlacierChart();
+
+createSeaLevelChart();
 
