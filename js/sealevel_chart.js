@@ -34,7 +34,7 @@ export default function createSeaLevelChart(){
       "transform": [
         {"filter": {"selection": "brush"}}
       ],
-      "mark": {"type": "area", "color": "lightblue"}
+      "mark": {"type": "area", "color": "deepblue"}
     }]
   }
   vegaEmbed('#sealevel-area', spec4);
