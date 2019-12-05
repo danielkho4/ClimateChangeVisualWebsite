@@ -4,11 +4,12 @@ import createGlacierChart from "./glacier_chart.js";
 
 
 
-
-// sr.reveal('#canvas', {
+// window.sr = ScrollReveal();
+// sr.reveal('.cont1', {
 //   delay: 300,
 //   duration: 500,
 //   reset: true
+  
 // })
 // sr.reveal('.container2', {
 //   delay: 300,
@@ -56,7 +57,7 @@ let spec = {
   "title":"Mean Temperature Anomalies (Degrees C)"},
   "color": {
     "condition": {"test": "datum.Source === 'GCAG'", "value": "black"},
-    "value": "blue"
+    "value": "darkturquoise"
   }
 
   }

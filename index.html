@@ -42,9 +42,10 @@
 <div id="fullpage">
     <div class="section " id="section0">
         <h1 >Global Warming and the United States Role</h1>
-        <div id="quote">"You cannot get through a single day without having an impact on the world around you. What you do 
-            makes a difference, and you have to decide what kind of difference you want to make." -- Jane Goodall</div>
-        <section>
+        <blockquote id="quote">"You cannot get through a single day without having an impact on the world around you. What you do 
+            makes a difference, and you have to decide what kind of difference you want to make." <footer>-- Jane Goodall</footer></blockquote>
+            <iframe src="https://giphy.com/embed/aUeHtNCSJn12E" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <section>
                 <a href="#secondPage" class="scroll-down" address="true"></a>
                 </section>
         
@@ -58,6 +59,7 @@
         <br>
         <br>
         <br>
+        <div class = "cont1">
         <div id="title" align='center'>
                 Temperature Anomalies by State USA
         </div>
@@ -70,37 +72,46 @@
             <input type="range" min=1895 max=2018 step=1 id="slider" value=1895 oninput="selected_year.value = slider.value">
             <output name="selected_year" id="selected_year">1895</output>
         </form></div>
-        <div id="lengend"></div>
+        <div id="lengend" class="lengend"></div>
 
                 
                 
             <div class="row">
                 
-                <div id="canvas" class = "column column-30">
+                <div id="canvas" class = "column column-50">
             </div>
-            <p class = "column column-30">From 2014-2016 there is a spike in global temperature. Rising global temperature means specific
+            <p class = "column column-50">From 2014-2016 there is a spike in global temperature. Rising global temperature means specific
                     habitats and animals can no longer exist. Changing ecosystems cannot support Humans and the
                     lovely planet we live on.</p>
             
             <script src="d3.v3.min.js">//http://d3js.org/</script>
-            </div>
+            </div></div>
     </div>
 
     <div class="section " id="section4">
-            <p align='center' id="carb_text">Carbon emissions steadily increases over time globally. CO2 is a natural gas which is not dangerous to the environment. Human produce CO2 is the problem and it gets absorb into the oceans. 
-                This creates acidification that kills ecosystems and warms global water temperature.</p>
+            <div id="title" align='center'>
+                    The Correlation of CO2 with Temperature
+            </div>
+            <br>
+            <div class="row">
             <div id="chart-area" class="column column-30">30%</div>
+            <p align='center' id="carb_text" class="column column-20">Carbon emissions steadily increases over time globally. CO2 is a natural gas which is not dangerous to the environment. Human produce CO2 is the problem and it gets absorb into the oceans. 
+                    This creates acidification that kills ecosystems and warms global water temperature.</p>
             <div id="CO2area" class="column column-30">30%</div>
+            </div>
             
     </div>
 
     <div class="section " id="section6">
+            <div id="title" align='center'>
+                    The United States CO2 Problem
+            </div>
          <div class="row">  
-                <p class="column column-30">Looking for the main suppliers, the United States contributed the most carbon in 2016. One of
+                <p class="column column-50">Looking for the main suppliers, the United States contributed the most carbon in 2016. One of
                         the most developed countries in the world should be environmentally oriented. Our direct actions
                         effect the lives of all humans and our laws are not climate change conscious. Our data does not
                         consist of China but we expect them to also be a leading supplier of CO2</p>
-		<div id="tree_map" class="column column-30"></div>
+		<div id="tree_map" class="column column-50"></div>
          
             
 
@@ -108,9 +119,12 @@
     </div>
     
     <div class="section " id="section8">
+            <div id="title" align='center'>
+                    The Decline of Glacier Area
+            </div>
         <div class="row">
-            <div id="glacier-area" class="column column-30"></div>
-            <p class = "column column-30">Glacier mass has declined sharply since the start of the 1945. Glaciers provide water during the
+            <div id="glacier-area" class="column column-50"></div>
+            <p class = "column column-50">Glacier mass has declined sharply since the start of the 1945. Glaciers provide water during the
                     summer months when they melt. The cold runoff water is home to a diverse set of plants and
                     animals, without the resource would not exist.</p>
             </div>
@@ -125,6 +139,7 @@
         </div>
     </div>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>
 <script src="js/loading.js"></script>
     <!-- Load JS libraries: jQuery, bootstrap, D3 -->
