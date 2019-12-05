@@ -52,6 +52,9 @@ h1{
   }
   #btn{
     display: inline;
+    background-color: whitesmoke;
+    border: none;
+    color:black;
   }
 #quote{
   font-family: 'Fira Sans', sans-serif;
